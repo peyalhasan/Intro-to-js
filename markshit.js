@@ -1,6 +1,6 @@
-let num = 45;
+let num = 105;
 
-if (num >= 80) {
+if (num < 100 && num >= 80) {
     console.log("Oi mama Toi A+ Paychos")
 }
 else if (num < 80 && num >= 70) {
@@ -16,7 +16,7 @@ else if (num < 50 && num >= 40) {
     console.log('Ehhhhhhhhh Asche amar uccho sikhitoo polada 😒')
 }
 else if (num < 40 && num >= 33) {
-    console.log("Thak baba tomi to amgor gorvo Desher Bobbisot 🫡")
+    console.log("Thak baba tomi to amgor gorvo Desher Bobbisot 🫡 Tomi fail eii bosho.😤")
 }
 else {
     console.log('Asole mama Rajniti kori to......😎')
