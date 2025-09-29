@@ -31,3 +31,6 @@ const shift = number.shift();
 const unshift = number.unshift();
 console.log(length, fourth, push, pop, shift, unshift)
 console.log(push)
+
+let a = 1 < 2;
+console.log(a) 
