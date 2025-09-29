@@ -21,3 +21,13 @@ console.log(drink.trim())
 const capital = 'Dha ka'
 console.log(capital.length)
 console.log(capital[3])
+
+const number = [12, 13, 15, 75, 87, 16]
+const length = number.length
+const fourth = number[3]
+const push = number.push(23)
+const pop = number.pop()
+const shift = number.shift();
+const unshift = number.unshift();
+console.log(length, fourth, push, pop, shift, unshift)
+console.log(push)
