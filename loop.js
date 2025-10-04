@@ -11,18 +11,24 @@
 // For loop 
 
 // Task one Even
-for(i= 0; i<= 100; i +=2){
+for( let i= 0; i<= 100; i +=2){
     console.log(i)
 }
 
-for(i= 0; i<= 100; i++){
+for(let i= 0; i<= 100; i++){
     if(i%2==0){
         console.log(i)
     }
 }
 
-let i = 1;
+let i = 0;
 while(i <= 100){
     console.log('Odd Number', i)
     i++
 }
+ 
+let a = 1; 
+do{
+    console.log("Bha Bhai bha");
+    a++;
+}while(a < 5)
