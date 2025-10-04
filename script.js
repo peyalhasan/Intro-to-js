@@ -1,4 +1,4 @@
-while(true){
+while(0){
     let num = prompt("Enter your value")
     let convertedNumber = Number(num);
     let correctAns = Math.floor(Math.random() * (90 - 10 +1)) +10 ; 
