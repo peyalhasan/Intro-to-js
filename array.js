@@ -31,10 +31,16 @@ let leter = names.charAt(30)
 // console.log(leter)
 
 let prices = [250, 645, 300, 900, 50]
-let offerPrice = [];
-
+let av = 0;
+let as = 0
 for (let i = 0; i < prices.length; i++) {
+    av += prices[i];
     let off = prices[i] - prices[i] * 0.1;
     prices[i] = off;
+    as += off;
 }
+const tl = prices.length;
+console.log('Avarage before OFF', av / tl)
+console.log('Avarage after OFF', as / tl)
+
 console.log(prices)
