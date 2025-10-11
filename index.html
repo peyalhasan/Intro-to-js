@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width, initial-scale=1.0">
     <title>game</title>
     <script src="./script.js"></script>
 </head>
-<body>
 
+<body>
+    <!-- Code From Mozilla (M mdn_) -->
+    <p>Please click on the checkbox control.</p>
+
+    <form>
+        <label for="id-checkbox">Checkbox:</label>
+        <input type="checkbox" id="id-checkbox" />
+    </form>
+    <div id="output-box"></div>
+    <script>
+        const checkbox = document.querySelector("#id-checkbox");
+
+        checkbox.addEventListener("click", checkboxClick);
+
+        function checkboxClick(event) {
+            const warn = "preventDefault() won't let you check this!\n";
+            document.getElementById("output-box").innerText += warn;
+            event.preventDefault();
+        }
+    </script>
 </body>
+
 </html>

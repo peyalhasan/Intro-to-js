@@ -20,3 +20,4 @@ function odd(num) {
     return odds
 }
 console.log(odd(10))
+
